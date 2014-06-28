@@ -790,6 +790,7 @@ namespace OSDMenu
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.TopMost = true;
             this.Shown += new System.EventHandler(this.OSDMenu_Shown);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OSDMenu_MouseDown);
             this.contextMenuStrip1.ResumeLayout(false);
